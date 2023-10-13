@@ -4,13 +4,13 @@ import java.io.*;
 import javax.swing.*;
 import java.lang.*;
 
-public class MyActionListener implements ActionListener 
+public class CalAction implements ActionListener 
 {
-	MyFrame mf;
+	CalFrame mf;
 	int add,minus,multi,count;
 	float divi;
 	
-	MyActionListener(MyFrame m){
+	CalAction(CalFrame m){
 		this.mf = m;
 	}
 	

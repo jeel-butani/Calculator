@@ -4,13 +4,13 @@ import java.io.*;
 import javax.swing.*;
 import java.lang.*;
 
-public class MyFrame extends Frame
+public class CalFrame extends Frame
 {
 	Button b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,sum,sub,mul,div,equal,ce;
 	//Button myButton[] = new Button[15];
 	TextField t1,t2,t3;
-	MyActionListener ml = new MyActionListener(this);
-	MyFrame()
+	CalAction ml = new CalAction(this);
+	CalFrame()
 	{
 		super("My Test Application");
 		setLayout(null);
@@ -120,7 +120,7 @@ public class MyFrame extends Frame
 	}
 	public static void main(String args[])
 	{
-			MyFrame mf = new MyFrame();
+			CalFrame mf = new CalFrame();
 			mf.setVisible(true);
 	}
 }
